@@ -9,6 +9,7 @@ public class Main {
         if you use genetic algorithm comment string 43,44,104,106 in class NeuronNetwork
         GENETIC ALGORITHM IS USED ONLY FOR THE SELECTION OF HYPERPARAMETERS
          */
+
         // parameters for GA
         final int maxCountLesson = 1;
         final int maxCountGeneration = 20;
@@ -20,7 +21,8 @@ public class Main {
 
         int countNeuronInLayers[] = {16,2};//structure NN
 
-        float inputTrainingData[][] = new float[10000][16];// 10000 number rows,16 number input neuron
+        // 10000 number rows,16 number input neuron
+        float inputTrainingData[][] = new float[10000][16];
         float outputTrainingData[][] = new float[10000][2];
 
         float inputTestData[][] = new float[55536][16];
